@@ -1,0 +1,29 @@
+name: post_processing
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-ggplot2=3.5.2
+  - r-seqinr=4.2_36
+  - r-base=4.3.3
+  - pip=25.2
+  - python=3.11.4
+  - r-argparse=2.2.5
+  - bioconductor-biostrings=2.70.1
+  - r-essentials=4.3
+  - conda-project=0.5.4
+  - bioconductor-shortread=1.60.0
+  - r-devtools=2.4.5
+  - r-dplyr=1.1.4
+  - bioconductor-phyloseq=1.46.0
+  - bioconductor-dada2=1.30.0
+  - r-biocmanager=1.30.26
+  - r-lme4=1.1_37
+  - r-arm=1.14_4
+  - r-lmerTest=3.1_3
+  - r-betapart=1.6.1
+  - r-ggvenn=0.1.10
+  - r-eulerr=7.0.2
+  - r-glmmtmb=1.1.9
+  - r-ggpubr=0.6.1
