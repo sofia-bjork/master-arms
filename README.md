@@ -2,7 +2,13 @@
 # FASTA files from ARMS-MBON to taxonomic assignments 
 
 ## How to run
-This repository contains the code and commands to process MiSeq and NovaSeq data from ARMS-MBON from quality controlled FASTA files to ASVs/OTUs/taxonomic assignments. The code specified in `execute/run/temporal_arms_run(1-4).sh` was run on an HPC using an Apptainer sandbox container based on [docker://continuumio/miniconda3:25.3.1-1](docker://continuumio/miniconda3:25.3.1-1). The environment used for building the sandbox can be found as `environment/git_env.yml`. The code was executed using `execute/run/temporal_arms_slurm.sh` for each of `execute/run/temporal_arms_run(1-4).sh` (in order) to yield the final taxonomic assignments. 
+This repository contains the code and commands to process MiSeq and NovaSeq data from ARMS-MBON from quality controlled FASTA files to ASVs/OTUs/taxonomic assignments.
+
+The code specified in `execute/run/temporal_arms_run(1-4).sh` was run on an HPC using an Apptainer sandbox container based on [docker://continuumio/miniconda3:25.3.1-1](docker://continuumio/miniconda3:25.3.1-1). 
+
+The environment used for building the sandbox can be found as `environment/git_env.yml`. 
+
+The code was executed using `execute/run/temporal_arms_slurm.sh` for each of `execute/run/temporal_arms_run(1-4).sh` (in order) to yield the final taxonomic assignments. 
 
 
 ## Important notes
